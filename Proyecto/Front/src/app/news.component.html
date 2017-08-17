@@ -1,0 +1,35 @@
+
+<div>
+  <nav>
+    <a class="back" routerLink="/search" routerLinkActive="active"> << Volver</a>
+    <a class="back" (click)="showUrl()">Mostrar URL</a>
+  </nav>
+  <h1 *ngIf="!(news == '')" style="font-size:1.7em; padding-left:1%">Ultimas noticias</h1>
+</div>
+<ul class="newsList">
+  <li *ngFor="let new of news">
+
+    <div class="newsContainer">
+        <span style="font-size:12px;">{{new.pub_date | date}}</span> <br>
+        <span *ngIf="new.isValid" class="valid">[url valida]</span> <span *ngIf="!(new.isValid)" class="invalid">[url invalida]</span>
+        <span *ngIf="urlState == true"><a href="{{new.web_url}}" target="_blank" > {{new.web_url}} </a></span>
+     
+        <div class="newsTitle">
+        <a href="{{new.web_url}}" target="_blank"> {{new.headline.main}}</a>
+      </div>
+
+      <div class="newsMain">
+        <span> {{new.snippet}}</span>
+      </div>
+    
+    </div>
+
+  </li>
+</ul>
+
+<div class="newsContainer" *ngIf="news == ''">
+    <div class="newsTitle">
+        <a href="">No se encontraron noticias</a>
+      </div>
+
+</div>

@@ -1,0 +1,8 @@
+C:\Users\gflores\Desktop\Projects\CapacitacionState\bin\Debug\netcoreapp1.1\CapacitacionState.deps.json
+C:\Users\gflores\Desktop\Projects\CapacitacionState\bin\Debug\netcoreapp1.1\CapacitacionState.runtimeconfig.json
+C:\Users\gflores\Desktop\Projects\CapacitacionState\bin\Debug\netcoreapp1.1\CapacitacionState.runtimeconfig.dev.json
+C:\Users\gflores\Desktop\Projects\CapacitacionState\obj\Debug\netcoreapp1.1\CapacitacionState.AssemblyInfo.cs
+C:\Users\gflores\Desktop\Projects\CapacitacionState\bin\Debug\netcoreapp1.1\CapacitacionState.dll
+C:\Users\gflores\Desktop\Projects\CapacitacionState\bin\Debug\netcoreapp1.1\CapacitacionState.pdb
+C:\Users\gflores\Desktop\Projects\CapacitacionState\obj\Debug\netcoreapp1.1\CapacitacionState.dll
+C:\Users\gflores\Desktop\Projects\CapacitacionState\obj\Debug\netcoreapp1.1\CapacitacionState.pdb

@@ -1,0 +1,81 @@
+h1 {
+  font-size: 1.2em;
+  color: #999;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+.back {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #607D8B;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+a:visited, a:link {
+  color: #607D8B;
+}
+a:hover {
+  color: #039be5;
+}
+a.active {
+  color: #039be5;
+}
+
+.newsList {
+  margin: 0 0 2em 0;
+  padding: 0;
+}
+newsList li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  margin: .5em;
+  padding: .3em 0;
+  border-radius: 4px;
+}
+.newsList li:hover {
+  color: #607D8B;
+}
+
+.newsContainer {
+  text-decoration-color: rgb(73, 73, 73);
+  border-bottom: rgba(81, 81, 81, 0.30) 2px solid;
+  box-sizing: border-box;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  margin-left: 5%;
+
+  position:relative;  
+  height:70%;
+  width:60%;
+  
+}
+
+.newsTitle {
+  font-size: 1.5em;
+
+}
+
+.newsMain {
+  font-style: italic;
+  padding-left: 2%;
+}
+
+.valid{
+  color: rgb(9, 105, 3)
+}
+
+.invalid{
+  color: rgb(142, 6, 6)
+}

@@ -1,0 +1,31 @@
+
+<div id="bg">
+    <div class="module">
+
+        <form #f="ngForm">
+
+            <input type="text" [ngClass]="{'textbox': (qError == ''), 'textboxError': (qError !== '')}" minlenght="1" (blur)="validateQ()" [(ngModel)]="model.q" name="q" placeholder="Palabra clave" style="margin-top: 7%;">
+
+            <label class="errorLabel">Fecha de inicio</label>
+            <input type="date" [ngClass]="{'textbox': (bError == ''), 'textboxError': (bError !== '')}" minlenght="1" (blur)="validateBegin()" [(ngModel)]="model.beginDate" name="beginDate">
+
+            <label class="errorLabel">Fecha de fin</label>
+            <input type="date" [ngClass]="{'textbox': (eError == ''), 'textboxError': (eError !== '')}" minlenght="1" (blur)="validateEnd()" [(ngModel)]="model.endDate " name="endDate">
+
+
+            <div>
+                <button class="button" [disabled]="(!f.valid) || (!isValidDate())" (click)="gotoNews()">Buscar</button>
+            </div>
+            <div>
+                <label class="errorLabel">{{eError}}</label>
+            </div>
+            <div>
+                <label class="errorLabel">{{bError}}</label>
+            </div>
+            <div>
+                <label class="errorLabel">{{qError}}</label>
+            </div>
+
+        </form>
+    </div>
+</div>
